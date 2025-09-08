@@ -20,9 +20,19 @@ body {
 
 }
 
+h1 {
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: blue;
+}
 
 h2 {
   font-size: 1.1em;
+  font-style: italic;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 #contenedor {
@@ -32,14 +42,14 @@ h2 {
 }
 
 #tituloPagina {
-  margin-top: 1em;
-  margin-bottom: 0;
-  font-family: sans-serif;
+  font-family: "Rock Salt", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #foto {
  height: 300px;
-  border: #ff7300 solid 5px;
+  border: #2f2d2d solid 4px;
   margin-top: 15px;
 }
 
@@ -56,9 +66,9 @@ h2 {
 }
 
 #boton {
-  font-size: 0.9em;
-  background-color: #3d00fdb5;
+  font-size: 1em;
+  background-color: #007afde1;
   color: white;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   cursor: pointer;
 }

@@ -1,17 +1,23 @@
 // Crear las listas de imágenes, títulos y frases
 const imagenes = [
-  "https://www.postposmo.com/wp-content/uploads/2020/09/Especies-end%C3%A9micas-de-colombia-3.jpg",
-  "https://www.postposmo.com/wp-content/uploads/2020/09/Especies-end%C3%A9micas-de-colombia-4.jpg",
+  "https://gcdn.emol.cl/los-2000/files/2020/03/cerati-crimen.jpg",
+  "https://pics.filmaffinity.com/Gustavo_Cerati_Adiaos_Vaideo_musical-683005853-large.jpg",
+  "https://www.latercera.com/resizer/4SDjvx3q00sLy_2jTGI6gGfXRwE=/arc-anglerfish-arc2-prod-copesa/public/464W4GWDJJAGZP73HKHZW7KKPM.JPG",
+  "https://fahrenheitmagazine.b-cdn.net/sites/default/files/styles/xl/public/field/image/gustavo_cerati_1.jpg",
 ];
 
 const titulos = [
-  "Tortuga morrocoy",
-  "Ranita venenosa",
+  "Crimen (2006)",
+  "Adiós (2006)",
+  "Cactus (2009)",
+  "Amor amarillo (1993)",
 ];
 
 const frases = [
-  "Te alimentas de plantas, frutas, hojas y flores. Vives en bosques de climas cálidos y prefieres la tierra que el agua.",
-  "Eres pequeña pero tu extravagancia no pasa desapercibida. Vives en bosques húmedos y lluviosos y tienes veneno en la piel.",
+  "Estas obsesionad@ con tu ex. Medio celocillo y drama queen.",
+  "Sabes que para que lleguen cosas mejores debes soltar. Eres quien da consejos de amor a tus amigos.",
+  "Eres medio hippie. Sientes una conexión profunda con la naturaleza y te gusta meditar bajo el sol.",
+  "Eres un romántico empedernido. Al servicio por y para el amor."
 ];
 
 // Trae los elementos del HTML que tienen ese id
