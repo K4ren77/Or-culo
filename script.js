@@ -4,6 +4,8 @@ const imagenes = [
   "https://pics.filmaffinity.com/Gustavo_Cerati_Adiaos_Vaideo_musical-683005853-large.jpg",
   "https://www.latercera.com/resizer/4SDjvx3q00sLy_2jTGI6gGfXRwE=/arc-anglerfish-arc2-prod-copesa/public/464W4GWDJJAGZP73HKHZW7KKPM.JPG",
   "https://fahrenheitmagazine.b-cdn.net/sites/default/files/styles/xl/public/field/image/gustavo_cerati_1.jpg",
+  "https://akamai.sscdn.co/tb/letras-blog/wp-content/uploads/2023/06/95db81a-Gustavo-Cerati.jpg",
+  "https://rtvc-assets-radionica3.s3.amazonaws.com/s3fs-public/styles/1200x630/public/field/image/article/puente.jpg?itok=D2Op6W_1",
 ];
 
 const titulos = [
@@ -11,13 +13,17 @@ const titulos = [
   "Adiós (2006)",
   "Cactus (2009)",
   "Amor amarillo (1993)",
+  "Lago en el cielo (2006)",
+  "Puente (1999)",
 ];
 
 const frases = [
-  "Estas obsesionad@ con tu ex. Medio celocillo y drama queen.",
-  "Sabes que para que lleguen cosas mejores debes soltar. Eres quien da consejos de amor a tus amigos.",
+  "Estas obsesionad@ con tu ex. Medio celocill@ y drama queen.",
+  "Sabes que para que lleguen cosas mejores debes soltar. Das los mejores consejos de amor.",
   "Eres medio hippie. Sientes una conexión profunda con la naturaleza y te gusta meditar bajo el sol.",
-  "Eres un romántico empedernido. Al servicio por y para el amor."
+  "Eres un romántico empedernido. Al servicio por y para el amor.",
+  "Crees en el destino y fluyes con el devenir de tu existencia.", 
+  "ERES",
 ];
 
 // Trae los elementos del HTML que tienen ese id
