@@ -8,7 +8,7 @@
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/sitio.webmanifest" />
 
-    <title>..:: Oráculo ::..</title>
+    <title>..::Songs & Souls::..</title>
     <!-- <meta name="description" content="Descripción del sitio...." /> -->
 
     <!-- OpenGraph -->
@@ -24,21 +24,32 @@
   </head>
   <body>
     <div id="contenedor">
-      <h1 id="tituloPagina">¿Qué canción de Cerati eres?</h1>
+      <h1 id="tituloPagina">¿Qué canción del Rock Argentino eres?</h1>
       <style>
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 </style>
 
-      <img id="foto" src="https://i.pinimg.com/736x/bb/58/e9/bb58e91bbfac31bd16a77699c7c49c82.jpg"/>
+      <img id="foto" src="https://d3wo5wojvuv7l.cloudfront.net/t_twitter_card/images.spreaker.com/original/495e1b773d8798a8e763f3466870f72b.jpg"/>
 
       <h2 class="tituloPrediccion" id="titulo1"></h2>
       <style>
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap');
 </style>
-
+  
       <p class="prediccion" id="prediccion1"></p>
       
-      <button id="boton">Nueva Predicción</button>
+      <button id="boton">¡A rockear!</button>
+
+      <script>
+  document.addEventListener("mousedown", function() {
+    document.body.style.cursor = "url('LINK-DE-TU-IMAGEN.png'), auto";
+  });
+
+  document.addEventListener("mouseup", function() {
+    document.body.style.cursor = "auto"; // vuelve al normal
+  });
+</script>
+
     </div>
   </body>
 </html>
