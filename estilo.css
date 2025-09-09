@@ -9,15 +9,32 @@ html {
   box-sizing: inherit;
 }
 
+html, body {
+  cursor: auto;
+}
+button:active {
+  cursor: grabbing;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
   background-color: rgb(0, 0, 0);
-  /* Código para poner un cursor personalizado*/
- cursor: url("https://png.pngtree.com/png-vector/20221005/ourmid/pngtree-blue-electric-guitar-png-image_6279286.png"), auto;
 
+  /* Código para poner un cursor personalizado*/
+
+  /* Cursor normal → guitarra */
+  cursor: url("https://icons.iconarchive.com/icons/flat-icons/music/32/guitar-icon.png"), auto;
 }
+
+*:active {
+  /* Cursor al hacer clic → nota musical */
+  cursor: url("https://icons.iconarchive.com/icons/flat-icons/music/32/music-note-icon.png"), auto;
+}
+
+
+
 
 h1 {
   font-family: "Rock Salt", cursive;
