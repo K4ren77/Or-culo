@@ -13,10 +13,10 @@ html,
 body {
   margin: 0;
   padding: 0;
-  
-  
+  background color: black 
+
   /* Código para poner un cursor personalizado*/
- /* cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/heart.png"), auto; */
+ cursor: url("https://png.pngtree.com/png-vector/20221005/ourmid/pngtree-blue-electric-guitar-png-image_6279286.png"), auto;
 
 }
 
@@ -24,7 +24,7 @@ h1 {
   font-family: "Rock Salt", cursive;
   font-weight: 400;
   font-style: normal;
-  color: blue;
+  color: rgb(99, 99, 255);
 }
 
 h2 {
@@ -33,6 +33,7 @@ h2 {
   font-family: "Barlow", sans-serif;
   font-weight: 600;
   font-style: normal;
+  color: white
 }
 
 #contenedor {
@@ -49,16 +50,18 @@ h2 {
 
 #foto {
  height: 300px;
-  border: #2f2d2d solid 4px;
+  border: #378064 solid 4px;
   margin-top: 15px;
 }
 
 .tituloPrediccion {
   font-size: 2em;
+  color: white 
 }
 
 .prediccion {
   font-size: 1.5em;
+  color: white
 }
 
 .prediccion::first-letter {
@@ -67,8 +70,8 @@ h2 {
 
 #boton {
   font-size: 1em;
-  background-color: #007afde1;
-  color: white;
+  background-color: #aa002be1;
+  color: rgb(245, 245, 245);
   margin-bottom: 1em;
   cursor: pointer;
 }
