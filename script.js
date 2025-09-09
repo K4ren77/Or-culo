@@ -1,16 +1,16 @@
 // Crear las listas de imágenes, títulos y frases
 const imagenes = [
-  "https://i1.sndcdn.com/artworks-S64yjfu4Ar5A-0-t500x500.jpg",
-  "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/SodaStereo_CancionAnimal.jpg/250px-SodaStereo_CancionAnimal.jpg",
+  "https://i1.sndcdn.com/artworks-Cl6vzDG3AkjZStBV-MRAh8Q-t500x500.jpg",
+  "https://www.latin-roll.com/wp-content/uploads/2020/08/IMG_9620.jpg",
   "https://www.latercera.com/resizer/4SDjvx3q00sLy_2jTGI6gGfXRwE=/arc-anglerfish-arc2-prod-copesa/public/464W4GWDJJAGZP73HKHZW7KKPM.JPG",
   "https://fahrenheitmagazine.b-cdn.net/sites/default/files/styles/xl/public/field/image/gustavo_cerati_1.jpg",
   "https://rocknvivo.com/wp-content/uploads/2018/10/charly-garcia-inicio-rock-770x513.jpg",
   "https://akamai.sscdn.co/uploadfile/letras/fotos/1/f/1/b/1f1b8bae061ee5bc5d814bb5f6793357-tb4.jpg",
-  "https://i.pinimg.com/736x/53/2c/80/532c8057c0ce6898cfe788050be63be4.jpg",
-  "https://i.pinimg.com/474x/f1/c3/67/f1c367afc348bd25f8c05c6e89b9af81.jpg",
+  "https://m.media-amazon.com/images/M/MV5BOGRhMmNjZmYtNGFhYS00NTA1LWI5MWMtNmM3NTdkNGY0YzNhXkEyXkFqcGc@._V1_.jpg",
+  "https://i.pinimg.com/736x/bc/ea/5e/bcea5e892e71e7a994135100c77c787d.jpg",
   "https://akamai.sscdn.co/uploadfile/letras/fotos/0/1/1/c/011cf7178a2267105a46d52ccd61f5d1.jpg",
   "https://i1.sndcdn.com/artworks-000033542424-gmluwu-t500x500.jpg",
-  "https://latinta.com.ar/wp-content/uploads/2017/07/Spinetta-1.jpg",
+  "https://pics.filmaffinity.com/luis_alberto_spinetta_seguir_viviendo_sin_tu_amor-280959720-mmed.jpg",
   "https://akamai.sscdn.co/letras/215x215/fotos/3/d/4/e/3d4e824e0881ca8c71b71ad2905cd696.jpg",
 ];
 
