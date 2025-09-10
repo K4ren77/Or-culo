@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+        background: linear-gradient(135deg, #000000 0%, #242121 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+            h1 {
+            color: rgb(49, 49, 244);
+            position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
+            top: 15px; /* posición desde el borde superior del lienzo */
+            left: 875px; /* posición desde el borde izquierdo del lienzo */
+            font-family: "Rock Salt", cursive;
+            font-weight: 400;
+            font-size: 5em;
+            font-style: normal;
+            }
+            a {
+            position: absolute;
+            top: 500px; 
+            left: 350px;
+            color: rgb(138, 11, 11)
+            }
+            #spotify {
+                left:480px;
+                top: 50%;
+                width: 800px;
+                height: 700px;
+            }
+            #volver {
+                left: 10%;
+                top: 100%;
+            }

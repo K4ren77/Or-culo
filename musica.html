@@ -1,45 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8"
+    <meta charset="UTF-8"/>
    <title>Playlist</title>
-   <style>
-    body {
-        background: linear-gradient(135deg, #4d4848 0%, #0c0c0c 100%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-            h1 {
-            color: rgb(82, 82, 252);
-            position: absolute; /* ubicar los elementos en una posición fija que definimos a continuación */
-            top: 15px; /* posición desde el borde superior del lienzo */
-            left: 480px; /* posición desde el borde izquierdo del lienzo */
-            font-family: "Rock Salt", cursive;
-            font-weight: 400;
-            font-size: 2.5em;
-            font-style: normal;
-            }
-            a {
-            position: absolute;
-            top: 500px; 
-            left: 350px;
-            color: red
-            }
-
-   </style>
+   <link rel="stylesheet" href="musica.css" />
 </head>
 
 <body>
     <div class="card">
         <h1>Nuestra Playlist</h1>   
-      <style>
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-</style>
 
    <a href="index.html">⬅Volver al inicio</a>
-   <iframe data-testid="embed-iframe" 
+
+   <iframe id="spotify" data-testid="embed-iframe" 
    style="border-radius:12px" 
    src="https://open.spotify.com/embed/playlist/3qnxVWp3qqauNgpShfJ7n0?utm_source=generator" 
    width="100%" 
