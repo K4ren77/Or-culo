@@ -86,12 +86,20 @@ h2 {
   color: white;  text-align: center;
   word-wrap: break-word;
 }
+@media (max-width: 768px) {
+  .tituloPrediccion { font-size: 2.2rem;
+  padding:0 10px;}
+}
 
 .prediccion {
   font-size: 1.5em;
   color: rgb(255, 255, 255);
   text-align: center;
   word-wrap: break-word;
+}
+@media (max-width: 768px) {
+  .prediccion { font-size: 2.2rem;
+  padding:0 10px;}
 }
 
 .prediccion::first-letter {
