@@ -46,6 +46,10 @@ h1 {
   word-wrap: break-word;
 
 }
+@media (max-width: 768px) {
+  h1 { font-size: 2rem;
+  padding: 8px;}
+}
 
 h2 {
   font-size: 1.8em;
