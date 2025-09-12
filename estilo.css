@@ -39,9 +39,12 @@ body {
 h1 {
   font-family: "Rock Salt", cursive;
   font-weight: 400;
-  font-size: 5em;
+  font-size: 4rem;
   font-style: normal;
   color: rgb(61, 61, 255);
+  text-align: center;
+  word-wrap: break-word;
+
 }
 
 h2 {
@@ -49,7 +52,9 @@ h2 {
   font-family: "Rationale", sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
+  text-align: center;
+  word-wrap: break-word;
 }
 
 #contenedor {
@@ -66,7 +71,7 @@ h2 {
 
 #foto {
   width: auto;
-  height: 600px;
+  height: 500px;
   border: #006941 solid 4px;
   margin-top: 15px;
 
@@ -74,12 +79,15 @@ h2 {
 
 .tituloPrediccion {
   font-size: 3.5em;
-  color: white 
+  color: white;  text-align: center;
+  word-wrap: break-word;
 }
 
 .prediccion {
   font-size: 1.5em;
-  color: rgb(255, 255, 255)
+  color: rgb(255, 255, 255);
+  text-align: center;
+  word-wrap: break-word;
 }
 
 .prediccion::first-letter {
